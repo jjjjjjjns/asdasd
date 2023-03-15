@@ -1,1 +1,16 @@
 
+-- Define your API namespace
+local MyAPI = {}
+
+-- Define a function to add two numbers
+function MyAPI.add(a, b)
+    return a + b
+end
+
+-- Define a function to multiply two numbers
+function MyAPI.multiply(a, b)
+    return a * b
+end
+
+-- Return your API namespace
+return MyAPI
